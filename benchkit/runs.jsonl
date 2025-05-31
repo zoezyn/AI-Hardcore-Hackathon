@@ -1,0 +1,1 @@
+{"model":"resnet18","batch":1,"params":11689512,"flops":1814083944,"runtime_ms":3.12,"power_w":35.27,"gpu_name":"NVIDIA A30","vram_GB":24576,"sm_count":null,"sm_clock_MHz":930,"cuda_ver":"12.1","driver_ver":"550.90.07","cpu_model":"x86_64","cpu_cores":32}
