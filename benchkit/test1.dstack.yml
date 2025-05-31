@@ -1,0 +1,20 @@
+type: task
+name: bench-resnet18-3090
+
+image: winglian/axolotl-cloud:main-20240429-py3.11-cu121-2.2.1
+python: "3.11"                                  # tells dstack to use its base (adds pip, conda)
+
+commands:
+  - pip install -r requirements.txt
+  - python benchmark.py --model resnet18
+  - cat results.json || true                   # if you write to file instead of stdout
+
+resources:
+  gpu: 24GB..:1                                # any 24 GB+ card (3090, A5000, etc.)
+  memory: 16GB..
+  cpu: 8..
+
+backends: [runpod]                             # stick to the provider that has stock
+retry:
+  on_events: [no-capacity, interruption]
+  duration: 30m
