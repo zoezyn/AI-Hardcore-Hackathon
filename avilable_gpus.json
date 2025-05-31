@@ -1,0 +1,1278 @@
+{
+  "project": "SpongeBobTheHacker",
+  "user": "thiborose",
+  "resources": {
+    "cpu": {
+      "min": 2,
+      "max": null
+    },
+    "memory": {
+      "min": 8.0,
+      "max": null
+    },
+    "shm_size": null,
+    "gpu": null,
+    "disk": {
+      "size": {
+        "min": 100.0,
+        "max": null
+      }
+    }
+  },
+  "max_price": null,
+  "spot": null,
+  "reservation": null,
+  "offers": [
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A2000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "A2000",
+            "memory_mib": 6144,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=62GB disk=100GB A2000:6GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.12,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A2000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "A2000",
+            "memory_mib": 6144,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=62GB disk=100GB A2000:6GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.12,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3070",
+      "resources": {
+        "cpus": 16,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3070",
+            "memory_mib": 8192,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=16 mem=31GB disk=100GB RTX3070:8GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.13,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3070",
+      "resources": {
+        "cpus": 16,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3070",
+            "memory_mib": 8192,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=16 mem=31GB disk=100GB RTX3070:8GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.13,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A5000",
+      "resources": {
+        "cpus": 19,
+        "memory_mib": 51200,
+        "gpus": [
+          {
+            "name": "A5000",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=19 mem=50GB disk=100GB A5000:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.16,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A5000",
+      "resources": {
+        "cpus": 19,
+        "memory_mib": 51200,
+        "gpus": [
+          {
+            "name": "A5000",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=19 mem=50GB disk=100GB A5000:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.16,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "BG",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 48128,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=47GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=31GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SE",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 14,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=14 mem=62GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3080",
+      "resources": {
+        "cpus": 7,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3080",
+            "memory_mib": 10240,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=7 mem=31GB disk=100GB RTX3080:10GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=31GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "BG",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 48128,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=47GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=31GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SE",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 14,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=14 mem=62GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3080",
+      "resources": {
+        "cpus": 7,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3080",
+            "memory_mib": 10240,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=7 mem=31GB disk=100GB RTX3080:10GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA RTX A4000",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4000",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=31GB disk=100GB A4000:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.17,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "ES",
+      "instance_type": "NVIDIA GeForce RTX 3080 Ti",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX3080Ti",
+            "memory_mib": 12288,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=30GB disk=100GB RTX3080Ti:12GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.18,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "ES",
+      "instance_type": "NVIDIA GeForce RTX 3080 Ti",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX3080Ti",
+            "memory_mib": 12288,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=30GB disk=100GB RTX3080Ti:12GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.18,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "FR",
+      "instance_type": "NVIDIA RTX A4500",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4500",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB A4500:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "TT",
+      "instance_type": "NVIDIA GeForce RTX 4070 Ti",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX4070Ti",
+            "memory_mib": 12288,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=30GB disk=100GB RTX4070Ti:12GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "Tesla V100-PCIE-16GB",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 44032,
+        "gpus": [
+          {
+            "name": "V100",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=43GB disk=100GB V100:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "FR",
+      "instance_type": "NVIDIA RTX A4500",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A4500",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB A4500:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "TT",
+      "instance_type": "NVIDIA GeForce RTX 4070 Ti",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX4070Ti",
+            "memory_mib": 12288,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=30GB disk=100GB RTX4070Ti:12GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "Tesla V100-PCIE-16GB",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 44032,
+        "gpus": [
+          {
+            "name": "V100",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=43GB disk=100GB V100:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.19,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SK",
+      "instance_type": "NVIDIA RTX 4000 Ada Generation",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "RTX4000Ada",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=62GB disk=100GB RTX4000Ada:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.2,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA RTX 4000 Ada Generation",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX4000Ada",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=31GB disk=100GB RTX4000Ada:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.2,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SK",
+      "instance_type": "NVIDIA RTX 4000 Ada Generation",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "RTX4000Ada",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=62GB disk=100GB RTX4000Ada:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.2,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA RTX 4000 Ada Generation",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX4000Ada",
+            "memory_mib": 20480,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=31GB disk=100GB RTX4000Ada:20GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.2,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "AT",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 25,
+        "memory_mib": 102400,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=25 mem=100GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CA",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=31GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 24576,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=24GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "ES",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "FR",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=30GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "NL",
+      "instance_type": "NVIDIA A30",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A30",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB A30:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SE",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 16,
+        "memory_mib": 62464,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=16 mem=61GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 27648,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=27GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "AT",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 25,
+        "memory_mib": 102400,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=25 mem=100GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CA",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=31GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "CZ",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 24576,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=24GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "ES",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "FR",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 12,
+        "memory_mib": 30720,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=12 mem=30GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "NL",
+      "instance_type": "NVIDIA A30",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "A30",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB A30:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "SE",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 16,
+        "memory_mib": 62464,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=16 mem=61GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "US",
+      "instance_type": "NVIDIA GeForce RTX 3090",
+      "resources": {
+        "cpus": 4,
+        "memory_mib": 27648,
+        "gpus": [
+          {
+            "name": "RTX3090",
+            "memory_mib": 24576,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=4 mem=27GB disk=100GB RTX3090:24GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.22,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "EU-RO-1",
+      "instance_type": "NVIDIA RTX 2000 Ada Generation",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX2000Ada",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=31GB disk=100GB RTX2000Ada:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "EUR-IS-1",
+      "instance_type": "NVIDIA RTX 2000 Ada Generation",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX2000Ada",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB RTX2000Ada:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "BG",
+      "instance_type": "Tesla V100-SXM2-16GB",
+      "resources": {
+        "cpus": 20,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "V100",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=20 mem=62GB disk=100GB V100:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "EU-RO-1",
+      "instance_type": "NVIDIA RTX 2000 Ada Generation",
+      "resources": {
+        "cpus": 6,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX2000Ada",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=6 mem=31GB disk=100GB RTX2000Ada:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "EUR-IS-1",
+      "instance_type": "NVIDIA RTX 2000 Ada Generation",
+      "resources": {
+        "cpus": 8,
+        "memory_mib": 31744,
+        "gpus": [
+          {
+            "name": "RTX2000Ada",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=8 mem=31GB disk=100GB RTX2000Ada:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    },
+    {
+      "backend": "runpod",
+      "region": "BG",
+      "instance_type": "Tesla V100-SXM2-16GB",
+      "resources": {
+        "cpus": 20,
+        "memory_mib": 63488,
+        "gpus": [
+          {
+            "name": "V100",
+            "memory_mib": 16384,
+            "vendor": "nvidia"
+          }
+        ],
+        "spot": false,
+        "disk": {
+          "size_mib": 102400
+        },
+        "description": "cpu=20 mem=62GB disk=100GB V100:16GB:1",
+        "cpu_arch": "x86"
+      },
+      "spot": false,
+      "price": 0.23,
+      "availability": "available"
+    }
+  ],
+  "total_offers": 1122
+}
