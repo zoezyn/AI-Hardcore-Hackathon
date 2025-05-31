@@ -1,13 +1,22 @@
-type: dev-environment
-name: vscode
+type: task
+# The name is optional, if not specified, generated randomly
+name: test
 
-# If `image` is not specified, dstack uses its default image
-python: "3.11"
-#image: dstackai/base:py3.13-0.7-cuda-12.1
+# Using the official Axolotl's Docker image
+image: winglian/axolotl-cloud:main-20240429-py3.11-cu121-2.2.1
 
-ide: vscode
+# Required environment variables
+# env:
+#   - HF_TOKEN
 
-# Uncomment to request resources
-#resources:
-#  gpu: 24GB
-.dstack.yml
+# Commands of the task
+commands:
+  - uv sync
+  - uv run test.py
+
+resources:
+  gpu:
+    # 24GB or more VRAM
+    memory: 24GB..
+    # Two or more GPU
+    count: 2..
