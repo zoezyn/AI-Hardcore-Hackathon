@@ -15,28 +15,19 @@ load_dotenv()
 
 models_to_test = [
     # Small to medium models (~1B–7B)
-    # "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",  # Removed unsupported model
     "mosaicml/mpt-1b-redpajama-200b",
-    "EleutherAI/gpt-neo-2.7B",
-    # "mistralai/Mistral-7B-Instruct-v0.2",
-    # "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ",
-    # "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
-    # "Qwen/Qwen1.5-7B-Chat",
-    # "TheBloke/Llama-2-7B-Chat-GPTQ",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ",
+    "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+    "Qwen/Qwen1.5-7B-Chat",
+    "TheBloke/Llama-2-7B-Chat-GPTQ",
 
-    # # Larger models (13B–32B)
-    # "TheBloke/Llama-2-13B-chat-GPTQ",
-    # "meta-llama/Llama-2-13b-chat-hf",
-    # "Qwen/Qwen1.5-14B-Chat",
-    # "Qwen/Qwen1.5-32B-Chat",
-    # "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
-    # "mistralai/Mixtral-8x7B-Instruct-v0.1",
-
-    # # Extra large models (40B+)
-    # "meta-llama/Llama-2-70b-chat-hf",
-    # "tiiuae/falcon-40b-instruct",
-    # "bigscience/bloomz",
-    # "CohereForAI/c4ai-command-r-v01",
+    # Larger models (13B–32B)
+    "TheBloke/Llama-2-13B-chat-GPTQ",
+    "Qwen/Qwen1.5-14B-Chat",
+    "Qwen/Qwen1.5-32B-Chat",
+    "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
 ]
 
 # Dynamically load 10 random GPU resources from avilable_gpus.json
@@ -45,7 +36,7 @@ with open('available_gpus.json', 'r') as f:
 
 random.seed(42)
 offers = gpus_data["offers"]
-selected_offers = random.sample(offers, 2)
+selected_offers = random.sample(offers, 10)
 
 def mib_to_gb(mib):
     return f"{int(round(mib / 1024))}GB"
@@ -111,7 +102,7 @@ def main():
         # Actually launch the task on the remote VM and run the inference script
         task.commands = [
             "uv sync",
-            f"uv run create_dataset/run_inferences.py --models {models_str} --num 5"
+            f"uv run create_dataset/run_inferences.py --models {models_str} --num 10"
         ]
 
         repo = LocalRepo(repo_dir=".", repo_id="berlin-hackathon")
