@@ -16,8 +16,8 @@ load_dotenv()
 models_to_test = [
     # Small to medium models (~1B–7B)
     "mosaicml/mpt-1b-redpajama-200b",
-    "mistralai/Mistral-7B-Instruct-v0.2",
-    "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ",
+    # "mistralai/Mistral-7B-Instruct-v0.2",
+    # "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ",
     "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
     "Qwen/Qwen1.5-7B-Chat",
     "TheBloke/Llama-2-7B-Chat-GPTQ",
@@ -26,8 +26,8 @@ models_to_test = [
     "TheBloke/Llama-2-13B-chat-GPTQ",
     "Qwen/Qwen1.5-14B-Chat",
     "Qwen/Qwen1.5-32B-Chat",
-    "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    # "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
+    # "mistralai/Mixtral-8x7B-Instruct-v0.1",
 ]
 
 # Dynamically load 10 random GPU resources from avilable_gpus.json

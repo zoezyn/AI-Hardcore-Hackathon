@@ -9,6 +9,5 @@
 dstack project add --name SpongeBobTheHacker --url https://sky.dstack.ai --token $DSTACK_TOKEN
 ```
 5. Init Dstack: `dstack init`
-6. Create a configuration file for the run, where you define which script to run (see example at `.dstack.yml`)
-7. start the run: `dstack apply -f .dstack.yml`
+6. run `uv run create_dataset/launch_task.py`
 8. See your run on the runs page: [`https://sky.dstack.ai/runs`](https://sky.dstack.ai/runs)
