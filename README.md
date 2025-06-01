@@ -1,6 +1,8 @@
 # AI-Hardcore-Hackathon
 
-This project predicts inference time for machine learning models on different GPUs. For this hackathon, we focused on large language models (LLMs), but the approach is general. The workflow benchmarks models on various GPUs, collects logs, and enriches the data with metadata from Hugging Face and TechPowerUp. The goal is to train a regression model to predict inference time from model and GPU characteristics. 
+This project aims to predict the inference time of machine learning models on specific GPUs using only metadata — such as model architecture parameters (e.g., hidden size, number of parameters) and GPU specifications (e.g., core count, memory size, vendor) — without requiring the model or hardware to be physically available.
+
+For this hackathon, we focused on large language models (LLMs), but the approach is general. The workflow benchmarks models on various GPUs, collects logs, and enriches the data with metadata from Hugging Face and TechPowerUp. The goal is to train a regression model to predict inference time from model and GPU characteristics. 
 
 ## Setup
 1. Install uv: https://docs.astral.sh/uv/getting-started/installation/
