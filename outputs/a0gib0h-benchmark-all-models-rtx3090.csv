@@ -1,0 +1,5 @@
+model_name,num_inferences,total_time,avg_inference_time
+mosaicml/mpt-1b-redpajama-200b,15,26.97,1.7979999999999998
+mistralai/Mistral-7B-Instruct-v0.2,15,40.26,2.6839999999999997
+Qwen/Qwen1.5-7B-Chat,15,814.27,54.284666666666666
+Qwen/Qwen1.5-14B-Chat,15,1940.17,129.34466666666668
