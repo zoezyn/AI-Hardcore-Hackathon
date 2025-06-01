@@ -8,12 +8,12 @@ import pandas as pd
 DUCKDUCKGO_SEARCH_URL = "https://html.duckduckgo.com/html/"
 
 
-def search_gpu_page_duckduckgo(gpu_query):
+def search_gpu_page_duckduckgo(gpu_name):
     """
     Uses DuckDuckGo to search for a GPU on TechPowerUp and returns the first matching URL.
     """
     params = {
-        "q": f"{gpu_query} site:techpowerup.com/gpu-specs"
+        "q": f"{gpu_name} site:techpowerup.com/gpu-specs"
     }
     headers = {
         "User-Agent": "Mozilla/5.0"
@@ -59,10 +59,10 @@ def parse_gpu_specs(url):
     return info
 
 
-def get_gpu_info(gpu_query):
-    url = search_gpu_page_duckduckgo(gpu_query)
+def get_gpu_info(gpu_name):
+    url = search_gpu_page_duckduckgo(gpu_name)
     if not url:
-        return {"error": f"No GPU found for query '{gpu_query}'."}
+        return {"error": f"No GPU found for query '{gpu_name}'."}
     return parse_gpu_specs(url)
 
 
