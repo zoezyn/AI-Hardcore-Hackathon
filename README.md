@@ -2,7 +2,7 @@
 
 This project aims to predict the inference time of machine learning models on specific GPUs using only metadata — such as model architecture parameters (e.g., hidden size, number of parameters) and GPU specifications (e.g., core count, memory size, vendor) — without requiring the model or hardware to be physically available.
 
-For this hackathon, we focused on large language models (LLMs), but the approach is general. The workflow benchmarks models on various GPUs, collects logs, and enriches the data with metadata from Hugging Face and TechPowerUp. The goal is to train a regression model to predict inference time from model and GPU characteristics. 
+For this hackathon, we focused on large language models (LLMs), but the approach is general. The workflow benchmarks preselected models on various preselected GPUs, collects metadata and inference time, and enriches the data with metadata from Hugging Face and TechPowerUp. The goal is to train a regression model to predict inference time from model and GPU characteristics. 
 
 ## Setup
 1. Install uv: https://docs.astral.sh/uv/getting-started/installation/
@@ -13,6 +13,7 @@ For this hackathon, we focused on large language models (LLMs), but the approach
 dstack project add --name SpongeBobTheHacker --url https://sky.dstack.ai --token $DSTACK_TOKEN
 ```
 5. Initialize DStack: `dstack init`
+6. create `.env` and add your `HF_TOKEN` (you can use `.env.template`)
 
 ## Create a Dataset
 1. Run `uv run create_dataset/launch_task.py`
