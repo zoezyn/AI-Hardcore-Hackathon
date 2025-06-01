@@ -8,12 +8,12 @@ For this hackathon, we focused on large language models (LLMs), but the approach
 1. Install uv: https://docs.astral.sh/uv/getting-started/installation/
 2. Synchronize packages: `uv sync`
 3. Set up DStack: `uv tool install dstack -U`
-4. Connect to the DStack server:
+4. create `.env` and add your `HF_TOKEN` and `DSTACK_TOKEN` (you can use `.env.template`)
+5. Connect to the DStack server:
 ```
 dstack project add --name SpongeBobTheHacker --url https://sky.dstack.ai --token $DSTACK_TOKEN
 ```
-5. Initialize DStack: `dstack init`
-6. create `.env` and add your `HF_TOKEN` (you can use `.env.template`)
+6. Initialize DStack: `dstack init`
 
 ## Create a Dataset
 1. Run `uv run create_dataset/launch_task.py`
