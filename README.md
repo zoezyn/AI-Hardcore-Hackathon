@@ -6,6 +6,12 @@ This project aims to predict the inference time of machine learning models on sp
 
 The hackathon challenge: build a system that can estimate inference time for large language models (LLMs) and other architectures on a variety of GPUs, using only metadata and without direct access to the hardware or models themselves. Our solution is structured around two complementary approaches, each suited to different scenarios and user needs.
 
+Team (alphabetical order): 
+- [Mohamed Islem Ayari](https://github.com/mofach90)
+- [Thibo Rosemplatt](https://github.com/thiborose)
+- [Aymen Soussi](https://github.com/Soussi-Aymen)
+- [Zoe Yan](https://github.com/zoezyn)
+
 ## Approaches
 
 ### Approach 1: Creating a Specialized Dataset
