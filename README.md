@@ -25,3 +25,9 @@ dstack project add --name SpongeBobTheHacker --url https://sky.dstack.ai --token
   - `uv run outputs/enrich_csv_with_gpu_metadata.py --csv_in {RESULTS_CSV_FILE}`. The name of the GPU can be specified, but if left empty, the script will attempt to infer it from the file name.
 
 An example of such a dataset can be found at `outputs/a0gib0h-benchmark-all-models-rtx3090.csv`
+
+## Acknowledgments
+
+Huge thanks to [**DSTack**](https://dstack.ai) for providing the infrastructure and tools that made this benchmarking pipeline possible.
+
+We also thank the organizers of the **AI Hardcore Hackathon** and [**{Tech: Europe}**](https://blog.techeurope.io) for making this event happen, and the **challenge organizer** for designing an inspiring and technically rich problem to work on.
