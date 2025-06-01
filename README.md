@@ -44,6 +44,7 @@ As a backup, we also implemented this approach, which is useful if you already h
 - Load and explore existing benchmark datasets (e.g., `2_benchmark_model_with_existing_dataset/tpu-gpu.csv`)
 - Perform analysis and visualization of model and GPU characteristics
 - Train and evaluate regression models to predict inference time
+The data was fetched from: https://mlcommons.org/benchmarks/inference-datacenter/
 
 ## Acknowledgments
 
